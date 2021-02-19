@@ -1,7 +1,6 @@
 # parking-lot
 In this project, we will create a parking lot management program that keeps track of vacant spots and parked cars.
 
-https://github.com/chudu13/parking-lot.wiki.git
 The parking lot should allow the user to park the car.
 You can enter the following commands on the command line:
 1)create (to specify the number of spots on the parking lot) - For example -> create 10
