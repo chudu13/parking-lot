@@ -15,7 +15,7 @@ class CommandImpl: Command {
     //проверяем существет ли введенная команда к коллекции listCommand
     override fun isExist(passCommand: String): Boolean = listCommand.contains(passCommand)
 
-    //обработка команды из спика котороя прошла проверку isExist, передача управления другому классу
+    //обработка команды из списка котороя прошла проверку isExist, передача управления другому классу
     override fun command(passCommand: String, text: String) {
         var command = passCommand
         var tempText = text
