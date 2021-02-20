@@ -12,7 +12,7 @@ class CommandImpl: Command {
     //проверяем была ли создана парковка с помощью команды create
     private var isInvoke = false
 
-    //проверяем существет ли введенная команда к коллекции listCommand
+    //проверяем существует ли введенная команда к коллекции listCommand
     override fun isExist(passCommand: String): Boolean = listCommand.contains(passCommand)
 
     //обработка команды из списка котороя прошла проверку isExist, передача управления другому классу
